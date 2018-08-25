@@ -32,28 +32,99 @@
                           "props": {
                             "style": {
                               "height": "180px",
-                              "paddingTop": "70px"
+                              "paddingTop": "70px",
+                              "paddingBottom": "70px"
                             }
                           },
                           "children": [
                             {
-                              "type": "img",
+                              "type": "Row",
                               "variant": "default",
-                              "props": {
-                                "src": "https://github.com/eunjishim/ej_shim/blob/master/app/assets/Oval%203.png?raw=true",
-                                "style": {
-                                  "width": "40px",
-                                  "padding": "50px"
+                              "children": [
+                                {
+                                  "type": "Column",
+                                  "variant": "default",
+                                  "children": [
+                                    {
+                                      "type": "div",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "paddingLeft": "40px"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "img",
+                                          "variant": "default",
+                                          "props": {
+                                            "src": "https://github.com/eunjishim/ej_shim/blob/master/app/assets/Oval%203.png?raw=true",
+                                            "style": {
+                                              "width": "40"
+                                            }
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "namespace": "Layout",
+                                  "props": {
+                                    "col": 7,
+                                    "style": {
+                                      "backgroundColor": "#ffffff"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "variant": "default",
+                                  "children": [
+                                    {
+                                      "type": "div",
+                                      "variant": "default",
+                                      "props": {
+                                        "style": {
+                                          "width": "100px"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "a",
+                                          "variant": "default",
+                                          "props": {
+                                            "href": "#"
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "span",
+                                              "text": "Work"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "namespace": "Layout",
+                                  "props": {
+                                    "col": 1,
+                                    "style": {
+                                      "backgroundColor": "#ffffff"
+                                    }
+                                  }
                                 }
-                              },
-                              "children": []
+                              ],
+                              "namespace": "Layout"
                             }
                           ]
                         }
                       ],
                       "namespace": "Layout",
                       "props": {
-                        "col": 6
+                        "col": 12,
+                        "style": {
+                          "backgroundColor": "#d18484"
+                        }
                       }
                     }
                   ],
