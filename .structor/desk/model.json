@@ -14,29 +14,50 @@
           },
           "children": [
             {
-              "type": "div",
+              "type": "header",
               "variant": "default",
-              "props": {
-                "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
-                }
-              },
+              "props": {},
               "children": [
                 {
-                  "type": "span",
-                  "text": "Hello Colorful World 🖍🖍",
-                  "props": {
-                    "style": {
-                      "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "height": "180px",
+                              "paddingTop": "70px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://github.com/eunjishim/ej_shim/blob/master/app/assets/Oval%203.png?raw=true",
+                                "style": {
+                                  "width": "40px",
+                                  "padding": "50px"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
                     }
-                  }
+                  ],
+                  "namespace": "Layout"
                 }
               ]
             }

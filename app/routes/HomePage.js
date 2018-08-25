@@ -6,6 +6,8 @@
 
 import React, { Component } from "react";
 
+import { Row, Column } from "modules/Layout";
+
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -14,26 +16,18 @@ class HomePage extends Component {
       <div>
 
         <div style={{ color: "#6b6161" }}>
-          <div
-            style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
-            }}
-          >
-            <span
-              style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
-              }}
-            >
-              Hello Colorful World 🖍🖍
-            </span>
-          </div>
+          <header>
+            <Row>
+              <Column col={6}>
+                <div style={{ height: "180px", paddingTop: "70px" }}>
+                  <img
+                    src="https://github.com/eunjishim/ej_shim/blob/master/app/assets/Oval%203.png?raw=true"
+                    style={{ width: "40px" }}
+                  />
+                </div>
+              </Column>
+            </Row>
+          </header>
         </div>
 
       </div>
