@@ -10,7 +10,7 @@ main() {
   default_email=${GIT_DEPLOY_EMAIL:-ruucm.a@gmail.com}
 
   #repository to deploy to. must be readable and writable.
-  repo=${GIT_DEPLOY_REPO:-git@github.com:ruucm-working/structor-experiment.git}
+  repo=${GIT_DEPLOY_REPO:-https://github.com/eunjishim/ej_shim2.git}
 
   #append commit hash to the end of message by default
   append_hash=true
